@@ -1,0 +1,124 @@
+.site-primary-header-wrap {
+    background-color: white; 
+    width: 1440px;
+    height: 80px;
+    gap: 0px;
+
+}
+
+
+.ast-builder-grid-row {
+    width: 201px;
+    height: 19px;
+    top: 31px;
+    margin-left: 37px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+
+.menu-item-63 {
+    background-color: #DC9F96;
+    width: 236px;
+height: 80px;
+
+
+}
+
+.site-primary-footer-wrap {
+    background-color: red;
+}
+
+.canette-accueil {
+    width: 1307px;
+    height: 950px;
+    margin-top: 163px;
+    left: 51px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.energie-des-plantes {
+    width: 1440px;
+    height: 415px;
+    top: 928px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: white;
+}
+
+.texte-energie-plantes {
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.les-gouts {
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: center;
+
+}
+
+.texte-gouts {
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.bouton-commander {
+    font-family: Syne;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 37px;
+
+}
+
+.fatiha-img {
+    width: 126.28px;
+height: 139px;
+top: 2465px;
+left: 132px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.vero-imgwidth {
+    width: 126.28px;
+height: 139px;
+top: 2465px;
+left: 547px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.marc-img {
+    width: 126.28px;
+height: 139px;
+top: 2465px;
+left: 960px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.bloc-ce-quils-pensents {
+    width: 1440px;
+height: 638px;
+top: 2212px;
+left: -2px;
+gap: 0px;
+opacity: 0px;
+}
