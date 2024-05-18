@@ -8,15 +8,35 @@
     margin: 0px;
 }
 
-
 .site-header-primary-section-left {
 width: 201px;
 height: 19px;
 top: 31px;
 margin-left: 37px;
 gap: 0px;
-opacity: 0px;
 
+}
+
+.menu-item-62 {
+    background-color: #DC9F96;
+      font-family: Syne;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19.2px;
+      text-align: center;
+      width: 236px;
+  }
+  
+  .menu-item-62 > a {
+      color: white !important;
+  }
+
+  .menu-item-62:hover{
+    background-color: #C02E44;
+  }
+
+  .ast-builder-menu .main-navigation > ul > li:last-child a {
+    margin-left: 50px;
 }
 
 #menu-item-admin {
@@ -24,26 +44,17 @@ opacity: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
+
   #menu-item-admin a {
     color:#000000 !important;
-  }
+
+}
+
   #menu-item-admin:hover a:hover {
     color:#000000 !important;
     font-size: smaller !important;
     font-weight: bolder !important;
-  }
-  .menu-item-62 {
-  background-color: #DC9F96;
-    font-family: Syne;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19.2px;
-    text-align: center;
-}
-
-.menu-item-62 > a {
-    color: white !important;
 }
 
 /**page d'accueil**/
@@ -92,7 +103,6 @@ margin-top: 60px;
     width: 487px;
     height: 36px !important;
     gap: 0px;
-    opacity: 0px;
     font-family: Syne;
     font-size: 30px !important;
     font-weight: 700 !important;
@@ -107,7 +117,6 @@ margin-top: 60px;
     margin-top: 50px !important;
     left: 472px !important;
     gap: 0px !important;
-    opacity: 0px !important;
     font-family: Syne !important;
     font-size: 20px !important;
     font-weight: 400 !important;
@@ -118,17 +127,14 @@ margin-top: 60px;
 .txt-energie-des-plantes {
 
     height: 120px !important;
-    
     left: 472px !important;
     gap: 0px !important;
-    opacity: 0px !important;
     font-family: Syne !important;
     font-size: 20px !important;
     font-weight: 400 !important;
     line-height: 24px !important;
 
 }
-
 
 .les-gouts {
 
@@ -137,7 +143,6 @@ margin-top: 60px;
     font-weight: 800 !important;
     line-height: 36px !important;
     text-align: center;
-
 
 }
 
@@ -155,7 +160,6 @@ margin-top: 60px;
     width: 293px !important;
     height: 362px !important;
     gap: 0px;
-    opacity: 0px;
     
 }
 
@@ -170,21 +174,18 @@ text-align: center;
 
 .bouton-commander {
     width: 198px !important;
-    height: 55px !important
-    ;
+    height: 55px !important;
     top: 2128px !important;
     left: 621px !important;
     padding: 9px 57px 9px 56px !important;
     gap: 0px !important;
     border-radius: 5px 0px 0px 0px !important;
-    opacity: 0px !important;
-    
     
 }
 
 .ce-quils-en-pensent {
     line-height: 36px;
-    font: syne !important;
+    font-family: syne !important;
     font-weight: 800 !important;
 }
 
@@ -194,7 +195,6 @@ height: 36px !important;
 top: 2483px !important;
 left: 279px;
 gap: 0px;
-opacity: 0px;
 font-family: Syne !important;
 font-size: 30px !important;
 font-weight: 700 !important;
@@ -209,7 +209,6 @@ height: 36px !important;
 top: 2483px !important;
 left: 694px;
 gap: 0px;
-opacity: 0px;
 font-family: Syne !important;
 font-size: 30px !important;
 font-weight: 700 !important;
@@ -224,7 +223,6 @@ height: 36px !important;
 top: 2483px !important;
 left: 1107px;
 gap: 0px;
-opacity: 0px;
 font-family: Syne !important;
 font-size: 30px !important;
 font-weight: 700 !important;
@@ -239,7 +237,6 @@ height: 57px !important;
 top: 2530px !important;
 left: 281px !important;
 gap: 0px;
-opacity: 0px;
 
     font-family: Syne !important;
 font-size: 16px !important;
@@ -254,7 +251,6 @@ height: 57px !important;
 top: 2530px !important;
 left: 694px !important;
 gap: 0px;
-opacity: 0px;
 font-family: Syne !important;
 font-size: 16px !important;
 font-weight: 400 !important;
@@ -268,7 +264,6 @@ height: 57px !important;
 top: 2530px !important;
 left: 1107px !important;
 gap: 0px;
-opacity: 0px;
 font-family: Syne !important;
 font-size: 16px !important;
 font-weight: 400 !important;
@@ -290,10 +285,6 @@ width: 100%;
     background-color: white !important;
 }
 
-.site-footer-focus-item {
-
-}
-
 /**page nous rencontrer**/
 
 .fleur-nous-rencontrer {
@@ -302,7 +293,6 @@ width: 100%;
     height: 150.26px;
     top: 40px;
     gap: 0px;
-    rotate: -70 deg !important;
 }
 
 .bloc-nous-rencontrer {
@@ -329,7 +319,6 @@ text-align: center;
     top: 339px !important;
     left: 386px !important;
     gap: 0px;
-    opacity: 0px;    
     margin-left: 110px;
 }
 
@@ -342,7 +331,6 @@ margin-bottom: 100px !important;
     height: 36px !important;
     left: 650px !important;
     gap: 0px;
-    opacity: 0px;
 
 }
 
@@ -353,7 +341,6 @@ margin-bottom: 100px !important;
     margin-top: 0px !important;
     left: 960px;
     gap: 0px;
-    opacity: 0px;
 }
 
 .brooke {
@@ -363,7 +350,6 @@ margin-bottom: 100px !important;
     margin-top: 0px;
     left: 636px;
     gap: 0px;
-    opacity: 0px;
     
 }
 
@@ -373,7 +359,33 @@ height: 167px !important;
 top: 643px !important;
 left: 312px !important;
 gap: 0px;
-opacity: 0px;
+}
+
+.nom-megane {
+    font-family: Syne;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+
+}
+
+.nom-brooke {
+    font-family: Syne;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+
+}
+
+.nom-sylvie {
+    font-family: Syne;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+
 }
 
 .fleur-lequipe {
@@ -389,10 +401,7 @@ height: 134.97px !important;
 top: 1645px !important;
 left: 540px !important;
 gap: 0px;
-opacity: 0px;
-angle: 160 deg !important;
 position: absolute;
-
 
 
 }
@@ -420,9 +429,7 @@ height: 0px;
 top: 264px;
 left: 292px;
 gap: 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-angle: 0 deg;
+
 
 }
 
@@ -432,9 +439,6 @@ height: 0px;
 top: 618px;
 left: 292px;
 gap: 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-angle: 0 deg;
 }
 
 .bloc-fruits-commande {
@@ -496,9 +500,6 @@ angle: 0 deg;
     top: 750px;
     left: 758px;
     gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    angle: -90 deg;
     position: absolute;
 }
 
@@ -554,6 +555,12 @@ angle: 0 deg;
  }
 
  @media screen and (max-width: 800px) {
+
+    .ast-button-wrap {
+        display: inline-block;
+        background-color: black;
+    }
+
     .image-fruit {
         clear: both;
         text-align: center;
@@ -622,8 +629,6 @@ angle: 0 deg;
         top: 1425px !important;
         left: 160px !important;
         gap: 0px;
-        opacity: 0px;
-        angle: 160 deg !important;
         position: absolute;
     }
 
@@ -665,9 +670,6 @@ angle: 0 deg;
         top: 1230px;
         left: 385px;
         gap: 0px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-        angle: -90 deg;
         position: absolute;
     }
 
@@ -700,6 +702,12 @@ angle: 0 deg;
 }
 
 @media screen and (max-width: 400px) {
+
+    .ast-button-wrap {
+        display: inline-block;
+        background-color: black;
+    }
+
     .txt-energie-des-plantes {
         font-size: 15px !important;
         width: 400px !important;
@@ -742,7 +750,6 @@ angle: 0 deg;
         top: 339px !important;
         left: 386px !important;
         gap: 0px;
-        opacity: 0px;
         font-size: 14px !important;
         margin-left: 10px;
     }
@@ -763,7 +770,7 @@ angle: 0 deg;
 
     .vos-informations {
         position: absolute;
-        top: 1420px;
+        top: 1420px !important;
         left: 30px;
     }
 
@@ -774,11 +781,18 @@ angle: 0 deg;
         margin-bottom: 100px !important;
     }
 
-    input[type="submit"] {
+    input[type="submit"].btn {
         border-radius: 4px;
         box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.05);
         margin-left: 25px !important;
         margin-top: 35px !important;
+    }
+
+    .commander {
+        border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    margin-left: 65px !important;
+
     }
 
     .numero-pamplemousse {
