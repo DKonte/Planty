@@ -26,8 +26,9 @@ function custom_menu_items($items, $args) {
     if ($args->theme_location === 'primary') {
         if (is_user_logged_in()) {
             // Construit manuellement le lien 'Admin'
+            $admin_url = admin_url('index.php');
             $admin_link = '<li id="menu-item-admin" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-admin">';
-            $admin_link .= '<a href="http://localhost/Planty/wp-admin/index.php" class="admin-button">Admin</a>';
+            $admin_link .= '<a href="' . esc_url($admin_url) . '" class="admin-button">Admin</a>';
             $admin_link .= '</li>';
 
             // Trouve l'ID du deuxième élément ('Commander') dans le menu
