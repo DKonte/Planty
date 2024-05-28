@@ -56,6 +56,10 @@
     font-weight: bolder !important;
 }
 
+#ast-scroll-top {
+    background-color: #D2776A;
+}
+
 /**page d'accueil**/
 
 .ast-plain-container {
@@ -532,12 +536,16 @@ body {
     background-color: #C02E44 !important;
  }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
     .ast-button-wrap {
         display: inline-block;
         background-color: black;
     }
+
+    .ast-builder-menu .main-navigation > ul > li:last-child a {
+        margin-left: 0px;
+   }
 
     .image-fruit {
         clear: both;
@@ -679,11 +687,15 @@ body {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
     .ast-button-wrap {
         display: inline-block;
         background-color: black;
+    }
+
+    .ast-builder-menu .main-navigation > ul > li:last-child a {
+         margin-left: 0px;
     }
 
     .txt-energie-des-plantes {
@@ -779,6 +791,10 @@ body {
 
     .formcommander p {
         display: contents;
+    }
+
+    .barre-form-commande {
+        display: none;
     }
 
     .votre-commande {
